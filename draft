@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Estate Landlord Association</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 1em;
+            padding: 0.5em 1em;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+            border-radius: 5px;
+        }
+        section {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prime Estate Landlord Association</h1>
+</header>
+
+<nav>
+    <a href="#residents">Residents Bio Data</a>
+    <a href="#events">Events & Occasions</a>
+    <a href="#payments">Payments</a>
+</nav>
+
+<section id="residents">
+    <h2>Residents Bio Data</h2>
+    <form>
+        <label for="resident-name">Name:</label><br>
+        <input type="text" id="resident-name" name="resident-name" required><br><br>
+
+        <label for="resident-address">Address:</label><br>
+        <input type="text" id="resident-address" name="resident-address" required><br><br>
+
+        <label for="resident-contact">Contact Number:</label><br>
+        <input type="text" id="resident-contact" name="resident-contact" required><br><br>
+
+        <label for="resident-email">Email:</label><br>
+        <input type="email" id="resident-email" name="resident-email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="events">
+    <h2>Events & Special Occasions</h2>
+    <ul>
+        <li>Annual General Meeting - January 15, 2024</li>
+        <li>Community Cleanup Day - March 20, 2024</li>
+        <li>Family Fun Day - June 10, 2024</li>
+    </ul>
+</section>
+
+<section id="payments">
+    <h2>Payments</h2>
+    <p>Use the form below to pay dues and levies securely.</p>
+    <form>
+        <label for="payment-name">Name:</label><br>
+        <input type="text" id="payment-name" name="payment-name" required><br><br>
+
+        <label for="payment-amount">Amount:</label><br>
+        <input type="number" id="payment-amount" name="payment-amount" required><br><br>
+
+        <label for="payment-method">Payment Method:</label><br>
+        <select id="payment-method" name="payment-method">
+            <option value="credit-card">Credit Card</option>
+            <option value="bank-transfer">Bank Transfer</option>
+        </select><br><br>
+
+        <button type="submit">Pay</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Prime Estate Landlord Association. All rights reserved.</p>
+</footer>
+
+</body>
+</html> 
